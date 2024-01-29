@@ -2,3 +2,4 @@ compilar:
 javac Carta.java BarajaEspanola.java
 
 ejecutar:
+java  BarajaEspanola
