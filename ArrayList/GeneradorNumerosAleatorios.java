@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Random;
 
 public class GeneradorNumerosAleatorios {
@@ -38,7 +39,9 @@ public class GeneradorNumerosAleatorios {
         numeros.addAll(pares);
         numeros.addAll(impares);
 
+        
         // Imprime el ArrayList resultante
-        System.out.println(numeros + "\n logitud: " + numeros.size() + "\n  pares: " + pares.size() + "\n  impares: " + impares.size()) ;
+        System.out.println(numeros + "\n logitud: " + numeros.size() + "\n  pares: " + pares.size() + "\n  impares: " + impares.size());
+        //System.out.println(Collections.sort(numeros));
     }
 }
